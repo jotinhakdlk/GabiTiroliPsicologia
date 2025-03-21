@@ -6,7 +6,6 @@
 
 header{
     background-color: #0E2626;
-
 }
 
 body{
@@ -21,15 +20,28 @@ body{
 
 }
 
-button{
-    position: absolute;
-    margin-top: 70px;
-    right: 700px;
-    border: none;
-}
-
 .buttontext{
     font-family: Italiana;
     font-size: 25px;
+    border: none;
+    padding: 20px;
+    position: absolute;
+    background-color: #0E2626;
+    color: #7A966D;
+    opacity: 70%;
+}
 
+#insta{
+    right: 250px;
+    margin-top: 50px;
+}
+
+#contatob{
+    right: 550px;
+    margin-top: 50px;
+}
+
+a{
+text-decoration: none;
+color: #7A966D
 }
