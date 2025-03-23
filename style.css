@@ -65,11 +65,11 @@ color: #7A966D
 
 .texto{
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 25px;
     font-family: Italiana;
-    text-align: left;
-    padding-right: 2%;
-    padding-left: 2%;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
     padding-bottom: 2%;
 }
 
@@ -78,8 +78,8 @@ color: #7A966D
     font-size: 23px;
     font-family: Italiana;
     text-align: center;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
     padding-bottom: 2%;
 }
 .titulo{
@@ -115,4 +115,12 @@ strong{
 .dcimg{
     color: #FFFFFF;
     font-size: 25px;
+}
+
+.espaçocima{
+    padding-top: 1%;
+}
+
+#texto-final{
+    font-size: 30px;
 }
