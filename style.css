@@ -5,6 +5,8 @@
     padding: 0px;
 }
 
+/* TAGS HTML */
+
 header{
     background-color: #0E2626;
 }
@@ -13,27 +15,21 @@ body{
     background-color: #7A966D;
 }
 
+a{
+text-decoration: none;
+color: #7A966D
+}
+
+/* ------------------------------------------------ */
+
+/* BARRA DE CIMA */
+
 .logo{
     height: 160px;
     width: 325px;
     align-items: center;
     left: 0%;
     margin-left: 20%;
-}
-
-.buttontext{
-    font-family: Italiana;
-    font-size: 175%;
-    border: none;
-    padding: 20px;
-    position: absolute;
-    background-color: #0E2626;
-    color: #7A966D;
-    opacity: 70%;
-}
-
-.dt{
-    opacity: 70%;
 }
 
 #insta{
@@ -48,25 +44,87 @@ body{
     margin-top: 50px;
 }
 
-a{
-text-decoration: none;
-color: #7A966D
+/* ------------------------------------------------ */
+
+#quadro-imagens{
+    justify-content: space-between;
 }
+
+.dcimg{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+#texto-final{
+    font-size: 30px;
+}
+
+#ec{
+    display: block;
+    margin: 5% 25% auto;
+    margin-bottom: 5%;
+    border-radius: 80px;
+    padding: 20px;
+    font-size: 50px;
+    background-color: #4E5237;
+    border: none;
+    font-family: Italiana;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+
+
+/* PRÉ-CONFIGURADOS! */
 
 .quadro{
     background-color: #0E2626;
-    margin-left: 10%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 5%;
-    margin-right: 10%;
     border-radius: 20px;
     padding: 1%;
     text-align: center;
 }
 
+.buttontext{
+    font-family: Italian;
+    font-size: 175%;
+    border: none;
+    padding: 20px;
+    position: absolute;
+    background-color: #0E2626;
+    color: #7A966D;
+    opacity: 70%;
+}
+
+.espaçocima{
+    padding-top: 1%;
+}
+
+.imagem{
+    max-width:175px;
+    max-height:175px;
+    padding-top: 2%;
+    text-align: center;
+    left: 0%;
+    border-radius: 15px;
+    filter: drop-shadow(10px 10px 10px #7A966D);
+}
+
+.dt{
+    opacity: 70%;
+}
+
 .texto{
     color: #FFFFFF;
     font-size: 25px;
-    font-family: Italiana;
+    font-family: Italian;
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
@@ -76,7 +134,7 @@ color: #7A966D
 .textoc{
     color: #FFFFFF;
     font-size: 23px;
-    font-family: Italiana;
+    font-family: Italian;
     text-align: center;
     padding-right: 3%;
     padding-left: 3%;
@@ -94,33 +152,8 @@ strong{
     color: #FFAB7C;
 }
 
-.imagem{
-    max-width:175px;
-    max-height:175px;
-    padding-top: 2%;
-    text-align: center;
-    left: 0%;
-    border-radius: 15px;
-    filter: drop-shadow(10px 10px 10px #7A966D);
-}
-
 .flex{
     display: flex;
 }
 
-#quadro-imagens{
-    justify-content: space-between;
-}
-
-.dcimg{
-    color: #FFFFFF;
-    font-size: 25px;
-}
-
-.espaçocima{
-    padding-top: 1%;
-}
-
-#texto-final{
-    font-size: 30px;
-}
+/* ------------------------------------------------ */
